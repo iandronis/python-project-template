@@ -12,7 +12,7 @@ edit_uri: ""
 nav:
   - Home:
     - Introduction: index.md
-    - Examples: examples.md
+    - Markdown Examples: markdown_examples.md
   - Changelog: changelog.md
 
 theme:

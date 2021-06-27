@@ -22,7 +22,8 @@ In order to apply those, some relative **pre-commit hooks** have been added.
 ## Documentation
 
 For the documentation, I propose using Markdown files along with [Mkdocs].  
-At this doc, you may find some [examples](./examples.md), which you could use.
+At this doc, you may find some [examples](./markdown_examples.md), which you
+could use.
 
 [flake8]: https://github.com/PyCQA/flake8
 [black]: https://github.com/psf/black
