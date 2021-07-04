@@ -1,0 +1,45 @@
+site_name: Python Project Template
+site_description: A template repo for a python project
+site_author: Ioannis Andronis
+site_url: https://iandronis.github.io/python-project-template
+
+repo_name: iandronis/python-project-template
+repo_url: https://github.com/iandronis/python-project-template
+
+docs_dir: ./mkdocs
+edit_uri: ""
+
+nav:
+  - Home:
+    - Introduction: index.md
+    - Markdown Examples: markdown_examples.md
+  - Changelog: changelog.md
+
+theme:
+  name: material
+  logo: assets/favicon-logo.png
+  favicon: assets/favicon-logo.png
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+
+markdown_extensions:
+    - admonition
+    - def_list
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.superfences
+    - smarty
+    - codehilite:
+        linenums: true
+        guess_lang: false
+    - pymdownx.snippets:
+        base_path: ./
+    - toc:
+        permalink: 🔗
+
+plugins:
+    - git-revision-date
+    - search
