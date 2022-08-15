@@ -13,14 +13,28 @@ nav:
   - Home:
     - Introduction: index.md
     - Markdown Examples: markdown_examples.md
+    - API template example: api_template.md
   - Changelog: changelog.md
 
 theme:
   name: material
+  palette:
+    - scheme: default
+      primary: teal
+      toggle:
+        name: Switch to dark mode
+        icon: material/toggle-switch-off-outline
+    - scheme: slate
+      primary: teal
+      toggle:
+        name: Switch to light mode
+        icon: material/toggle-switch
+  language: en
   logo: assets/favicon-logo.png
   favicon: assets/favicon-logo.png
   features:
     - navigation.instant
+    - navigation.tracking
     - navigation.tabs
     - navigation.top
     - search.suggest
@@ -30,7 +44,20 @@ markdown_extensions:
     - def_list
     - pymdownx.caret
     - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.emoji
+    - pymdownx.extra
+    - pymdownx.magiclink
+    - pymdownx.mark
+    - pymdownx.smartsymbols
     - pymdownx.superfences
+    - pymdownx.tilde
+    - pymdownx.tabbed:
+        alternate_style: true
+    - pymdownx.highlight:
+        linenums: false
+    - pymdownx.snippets:
+        base_path: ./
     - smarty
     - codehilite:
         linenums: true
@@ -38,8 +65,11 @@ markdown_extensions:
     - pymdownx.snippets:
         base_path: ./
     - toc:
-        permalink: 🔗
+        permalink: ↗
+        permalink_title:
+        toc_depth: 2
 
 plugins:
-    - git-revision-date
-    - search
+  - minify:
+      minify_html: true
+  - search

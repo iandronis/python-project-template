@@ -6,6 +6,7 @@ install_generate_mkdocs:
 	pip install mkdocs
 	pip install mkdocs-git-revision-date-plugin
 	pip install mkdocs-material
+	pip install mkdocs-minify-plugin
 	mkdocs build -d ./docs
 
 isort:
