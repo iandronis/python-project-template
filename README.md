@@ -4,4 +4,4 @@
 [![Security](https://img.shields.io/badge/security-security-orange)](https://github.com/pyupio/safety/)
 
 # python-project-template
-A template repo for a python project
+A repo template for a python project
