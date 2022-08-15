@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://iandronis.github.io/python-project-template/</loc>
+         <lastmod>2022-08-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://iandronis.github.io/python-project-template/api_template/</loc>
+         <lastmod>2022-08-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://iandronis.github.io/python-project-template/changelog/</loc>
+         <lastmod>2022-08-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://iandronis.github.io/python-project-template/draft_doc_file/</loc>
+         <lastmod>2022-08-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://iandronis.github.io/python-project-template/markdown_examples/</loc>
+         <lastmod>2022-08-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
